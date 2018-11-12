@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentDiary
+namespace Odcinek10
 {
     class Diary
     {
@@ -62,6 +62,6 @@ namespace StudentDiary
         {
             return ratings.Min(); //Zwraca najmniejsza liczbę z lisrty ratings - Min() z Linq
         }
-
+        
     }
 }
