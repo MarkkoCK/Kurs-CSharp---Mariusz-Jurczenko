@@ -8,8 +8,12 @@ namespace StudentDiary
 {
     class Diary
     {
+        public Diary() // ctor + tab tab - automatycznie utworz definicje tworzenia konstruktora obiektu
+        {
+            ratings = new List<float>();
+        }
         // Stan (zmienne - pola)
-        List<float> ratings = new List<float>(); //Lista ocen ang. ratings = lista
+        List<float> ratings; //Lista ocen ang. ratings = lista
 
         // Zachowania (metody)
         public void AddRating(float rating) //Dodanie ocen do listy ratings - metoda
