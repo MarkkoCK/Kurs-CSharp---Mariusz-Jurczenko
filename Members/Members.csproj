@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E37B44D-8F8D-4514-A4B6-F9F52E6608AF}</ProjectGuid>
+    <ProjectGuid>{F2A08A5F-8AC9-4A6C-ADFF-53BAE06BF837}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StudentDiary2</RootNamespace>
-    <AssemblyName>StudentDiary2</AssemblyName>
+    <RootNamespace>Members</RootNamespace>
+    <AssemblyName>Members</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Diary.cs" />
     <Compile Include="DiaryStatistics.cs" />
+    <Compile Include="NameChangedDelegate.cs" />
+    <Compile Include="NameChangedEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
